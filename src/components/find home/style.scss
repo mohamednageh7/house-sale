@@ -1,0 +1,61 @@
+.home-find {
+  background: linear-gradient(#e2ecd0, #fde9c6) !important;
+  position: relative;
+  height: calc(100vh - 68px);
+  div {
+    width: 100%;
+  }
+  .button-color {
+    background: linear-gradient(#ec6683, #f88b8e) !important;
+    border: none !important;
+  }
+  .form-control {
+    height: 3rem;
+  }
+  .form-control:focus {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+  select {
+    appearance: none;
+  }
+  form .fa-chevron-down {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+  .right-text {
+    text-align: center;
+    margin-top: 7rem;
+    position: relative;
+    span {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    img {
+      position: absolute;
+      width: 18rem;
+      bottom: 0rem;
+      left: 3rem;
+    }
+    @media (max-width: 414px) {
+      display: none;
+    }
+  }
+
+  h1 {
+    @media (max-width: 414px) {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+  .mobile-home {
+    width: 8rem;
+  }
+  .left-side {
+    @media (max-width: 414px) {
+      margin: 0 !important;
+      margin-top: 1rem !important;
+    }
+  }
+}

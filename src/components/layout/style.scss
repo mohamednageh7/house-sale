@@ -1,0 +1,30 @@
+.my-nav {
+  background: linear-gradient(#deedd1, #e1ecd0) !important;
+  border-bottom: 1px solid #ccc;
+}
+.navbar-view {
+  background: linear-gradient(#deedd1, #e1ecd0) !important;
+
+  div > ul {
+    width: 36rem;
+    justify-content: space-around;
+    li > a {
+      color: #000 !important;
+      font-weight: bold;
+    }
+  }
+  div > form {
+    width: 36rem;
+    position: relative;
+    input {
+      width: 100% !important;
+    }
+    i {
+      position: absolute;
+      right: 1rem;
+    }
+    @media (max-width: 414px) {
+      width: 19rem;
+    }
+  }
+}
